@@ -1,0 +1,47 @@
+# Taxon page panel layout, modeled on the Orthoptera Species File
+# (orthoptera.speciesfile.org) species pages.
+#
+# Panels marked (npm) come from José Luis Pereira's add-on panels
+# (github.com/jlpereira/taxonpages-packages):
+#   - etymology, field-occurrences, inaturalist: npm packages in package.json
+#   - specimen-records: local copy in panels/PanelSpecimenRecords, because the
+#     published npm package (0.0.1) omits its components/ folder
+
+taxa_page:
+  overview:
+    panels:
+      - - - panel:gallery
+          - panel:type
+          - panel:type-specimen
+          - panel:nomenclature
+          - panel:nomenclature-references
+
+        - - panel:map
+          - panel:descendants
+          - panel:content
+          - panel:etymology # (npm)
+          - panel:statistics
+
+  specimen_records:
+    label: Specimen records
+    rank_group: ['SpeciesGroup']
+    panels:
+      - - - panel:specimen-records # (npm)
+
+  field_occurrences:
+    label: Field occurrences
+    rank_group: ['SpeciesGroup']
+    panels:
+      - - - panel:field-occurrences # (npm)
+
+  inaturalist:
+    label: iNaturalist
+    rank_group: ['GenusGroup', 'SpeciesGroup']
+    panels:
+      - - - id: panel:inaturalist # (npm)
+            bind:
+              title: iNaturalist observations
+              iconicTaxa:
+                - Insecta
+              qualityGrade: research
+              licensed: true

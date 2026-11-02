@@ -1,0 +1,10 @@
+---
+# SEO and page metadata
+
+metadata:
+  - name: description
+    content: World checklist of Trichoptera (caddisflies), served from TaxonWorks.
+  - name: keywords
+    content: Trichoptera, caddisflies, checklist, taxonomy, TaxonWorks
+  - name: robots
+    content: follow

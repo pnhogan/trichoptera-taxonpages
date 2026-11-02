@@ -12,6 +12,7 @@
     "setup": "taxonpages setup"
   },
   "dependencies": {
+    "@jlpereira/taxonpages-module-homepage": "^0.1.0",
     "@jlpereira/taxonpages-panel-etymology": "^0.0.1",
     "@jlpereira/taxonpages-panel-field-occurrences": "^0.0.1",
     "@jlpereira/taxonpages-panel-inaturalist": "^1.0.3",

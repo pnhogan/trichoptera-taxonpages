@@ -1,0 +1,57 @@
+# Homepage layout for @jlpereira/taxonpages-module-homepage, modeled on the
+# Orthoptera Species File homepage. Replaces pages/home.md.
+#
+# Until config/api.yml has a project token, the counters show the module's
+# built-in (Orthoptera) defaults instead of Trichoptera numbers.
+
+home_module:
+  sectionOrder:
+    - hero
+    - data
+    - description
+    - authors
+    - terms
+
+  hero:
+    title: World Trichoptera Checklist
+    description: A comprehensive, collaborative catalog of the caddisflies of the world, curated in TaxonWorks.
+    # Rotating background images, e.g. files placed in public/images/:
+    # images:
+    #   - src: images/hero-1.jpg
+    images: []
+
+  data:
+    types:
+      mediaSounds: false
+
+  description:
+    paragraphs:
+      - Welcome to the World Trichoptera Checklist, a website of taxon pages generated from the World Trichoptera Checklist Project, a comprehensive collaborative effort managed in TaxonWorks. Our About page contains an overview and history of the project, the data it is based upon, and information about the team and how you can contribute. We encourage you to help and join us in this effort.
+      - This is a work in progress in producing a Trichoptera TaxonWorks page, similar in style to those available for Plecoptera, Orthoptera, and Dermaptera.
+
+  authors:
+    title: Team
+    sections:
+      - people:
+          - name: John C. Morse
+          - name: Jason L. Robinson
+          - name: Phillip N. Hogan
+          - name: Andrew Rasmussen
+          - name: David Cartwright
+          - name: Naotoshi Kuhara
+          - name: Sawyer Lane Osborne
+          - name: Pandher-Manpreet-Singh
+          - name: Parey-Sajad-Hussain
+          - name: Mauricio Ramirez
+          - name: StClair Ros
+          - name: Simon Vitecek
+
+  # News items are pulled from the TaxonWorks project's News. Add "announcements"
+  # to sectionOrder above once news has been posted there.
+
+  terms:
+    blocks:
+      - title: Announcements
+        body: This will be where announcements about meetings, new page features, and other exciting news and updates will be shared.
+      - title: Find out more
+        body: Learn how to collaborate with the World Trichoptera Checklist project. Contact information, technical details, and more are available on the <a href="#/about">About</a> page.

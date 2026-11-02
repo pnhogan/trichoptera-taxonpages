@@ -2,7 +2,7 @@
 title: About
 contact_email: user@example.com
 copyright: All content is CC 0 so that it maybe be shared throughout the world in places like Wikipedia.
-citation: Project collaborative. 2022. Website title. Available at https://example.com.
+citation: Trichoptera Species File. 2026. Trichoptera Species File. Available at https://example.com.
 ---
 
 # {{frontmatter.title}}

@@ -13,7 +13,7 @@ home_module:
     - terms
 
   hero:
-    title: World Trichoptera Checklist
+    title: Trichoptera World Checklist
     description: A comprehensive, collaborative catalog of the caddisflies of the world, curated in TaxonWorks.
     # Rotating background images, e.g. files placed in public/images/:
     # images:

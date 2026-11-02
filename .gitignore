@@ -4,3 +4,6 @@ dist
 *.local
 .env
 .vite
+
+# Local dev-only overrides (e.g. the mock API written by npm run dev:mock)
+config/*.development.yml

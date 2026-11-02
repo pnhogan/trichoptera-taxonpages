@@ -1,0 +1,23 @@
+# News page (/news) settings. News items are written in the TaxonWorks project
+# (News) and served by the API; this file only controls how they are shown.
+
+news_module:
+  index_page: # The news listing page (/news)
+    news_per_page: 10 # Number of news items per page
+    pinned_news_id: [] # TaxonWorks news IDs always shown at the top of the list
+    layout: 'list' # 'list' or 'cards'
+    show_date: true # Show the publication date of each item
+
+  news_page: # A single news item (/news/:id)
+    show_date: true
+    show_author: true
+
+  widget: # Latest news on the homepage
+    news_count: 3 # Number of items shown
+    show_date: true
+    show_content: true # Show the text of each item, not just its title
+
+  # Optional rotating banner above the header for short site-wide notices:
+  # announcements:
+  #   - message: The checklist will be offline for maintenance on 1 December.
+  #     url: /news

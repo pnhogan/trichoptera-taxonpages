@@ -7,6 +7,9 @@ header_links:
   - label: Home
     link: /
 
+  - label: News
+    link: /news
+
   - label: Search DwC
     link: /resources/tw/filter/dwc_otus
 

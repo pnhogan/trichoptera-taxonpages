@@ -10,6 +10,7 @@ home_module:
     - data
     - description
     - authors
+    - announcements
     - terms
 
   hero:
@@ -46,12 +47,10 @@ home_module:
           - name: StClair Ros
           - name: Simon Vitecek
 
-  # News items are pulled from the TaxonWorks project's News. Add "announcements"
-  # to sectionOrder above once news has been posted there.
+  # The "announcements" section shows the latest TaxonWorks project News
+  # (count set in config/news.yml); the full list is on the News page (/news).
 
   terms:
     blocks:
-      - title: Announcements
-        body: This will be where announcements about meetings, new page features, and other exciting news and updates will be shared.
       - title: Find out more
         body: Learn how to collaborate with the World Trichoptera Checklist project. Contact information, technical details, and more are available on the <a href="#/about">About</a> page.

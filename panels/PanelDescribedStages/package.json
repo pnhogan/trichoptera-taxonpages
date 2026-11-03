@@ -1,0 +1,15 @@
+{
+  "name": "taxonpages-panel-described-stages",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A TaxonPages panel showing which life stages and sexes of a species have been described, as heatmap tiles linked to the describing literature",
+  "taxonpages": {
+    "type": "panel",
+    "entry": "./main.js"
+  },
+  "files": [
+    "main.js",
+    "PanelDescribedStages.vue"
+  ],
+  "license": "MIT"
+}

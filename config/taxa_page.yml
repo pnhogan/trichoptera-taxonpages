@@ -17,6 +17,7 @@ taxa_page:
           - panel:nomenclature-references
 
         - - panel:map
+          - panel:described-stages # (local, panels/PanelDescribedStages)
           - panel:descendants
           - panel:content
           - panel:etymology # (npm)

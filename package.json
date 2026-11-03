@@ -3,9 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "predev": "node mock-api/dev.mjs --clean",
     "dev": "taxonpages dev",
-    "dev:mock": "node mock-api/dev.mjs",
     "dev:ssr": "taxonpages dev:ssr",
     "build": "taxonpages build",
     "build:ssr": "taxonpages build:ssr",
